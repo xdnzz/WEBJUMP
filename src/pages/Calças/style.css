@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap');
+
+main {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.NavMenu{
+    width: 230px;
+    border: 1px solid black;
+    height: 400px;
+
+}
+
+.contentMenu {
+    margin-left: 10px;
+}
+
+.title-filter {
+    font-size: 26px;
+    color: #CB0D1F;
+    font-weight: bold;
+}
+
+.category {
+    font-size: 20px;
+    font-weight: bold;
+    color: #61908C;
+}
+
+hr {
+    color: grey;
+}
+
+.NavMenu li {
+    margin-left: 30px;
+}
+
+.NavMenu a {
+    text-decoration: none;
+    margin: 2px;
+    color: #000;
+}
+
+.singleiIcon {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%; 
+}
+
+.content span {
+    font-size: 16px;
+}
+
+.contentList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* width: 850px; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    height: 200px;
+    justify-content: center;
+ 
+}
+
+
+
+.card img {
+    width: 125px;
+    height: 125px;
+    border: 1px solid grey;
+}
+
+.card button {
+
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #00A8A9;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+.filtersSection {
+display: flex;
+justify-content: space-between;
+width: 850px;
+}
+
+.filterBySelect {
+    display: flex;
+    align-items: center;
+}
+
+.filterBySelect span {
+margin-right: 20px;
+color: #808185;
+font-weight: bold;
+font-size: 14px;
+}
+
+select {
+    border-radius: 5px;
+    border: 1px solid #E2DEDC;
+}
+
+.originalPrice {
+    font-size: 15px;
+    text-decoration: line-through;
+    list-style: none;
+}
+
+.teste {
+    margin-left: 10px;
+}
+
+.salePrice {
+    font-size: 21px;
+    color: #1E2B50;
+    font-weight: bold;
+    list-style: none;
+}
+
+.salePriceNone{
+    display: none;
+}
+
+.pricesProduct {
+    display: flex !important;
+    align-items: center;
+}
+.pricesProduct li {
+    margin-right: 4px;
+}
+
+.mapSite {
+    margin: 15px;
+    width: 100%;
+}
+
+.mapSite span {
+    margin: 5px;
+    color: #CB0D1F;
+    font-size: 20px;
+}
+
+.mapSite a {
+    text-decoration: none;
+    color: #00A8A9;
+}
+
+.contentOrganization {
+    margin-left: 20px;
+}
+
+#titleContentOrganization{
+    color: #CB0D1F ;
+    font-size: 33px ;
+
+}
+
+.productFilter {
+    margin-top: 7px;
+}
+
+.productFilter input {
+    margin: 5px;
+}
+
+.fatherDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 800px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuNav {
+        display: none;
+    }
+
+    .filtersSection {
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        }
+     
+}
